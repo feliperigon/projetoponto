@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>.Online</title>
+</head>
+<body>
+    <main class="container">
+        <h2>.Online</h2>
+        <form method="POST" action="acoes/login.php">
+            <div class="input-field">
+                <input type="text" name="email" id="username"
+                    placeholder="Usuário">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="senha" id="password"
+                    placeholder="Senha">
+                <div class="underline"></div>
+            </div>
+
+            <input type="Submit" value="Acessar">
+        </form> 
+        <div class="footer">
+            <span>Esqueceu a sua senha?</span>
+            <div class="redefinirsenha">
+                <div class="redsenha">
+                    <a href="redefinir.html">
+                        <i class="redsenha"></i>
+                        Redefinir senha
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
